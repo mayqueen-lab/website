@@ -109,140 +109,81 @@ form textarea:focus{
 p{
   margin:0;
 }
-
-
-
-.read-more-state {
-  display: none;
-
-}
-
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: 0.5s ease;
-
-
-}
-
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-
-
-}
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'LEER MAS';
-}
-
-.read-more-state ~ .read-more-trigger:active{
-  background: #e60800;
-  
-  box-shadow:none;
-}
-.read-more-state ~ .read-more-trigger:focus{
-  background: #e60800;
-}
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'LEER MENOS';
-}
-
-.read-more-trigger {
- /* cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #666;
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;*/
-
-
-  cursor: pointer;
-  background: #ff3a33;
-  color: white;
-  font-family: 'Anton', sans-serif;
-  /*font-weight: bold;*/
-  letter-spacing: 2px;
-  font-size: 1.4em;
-  width: 50%;
-  border:1px solid #ff0900;
-  /*text-shadow: 2px 2px #808080;*/
-  display: block;
-  box-shadow: inset 0 -0.2em rgba(0,0,0,.3);
-  border-radius: 8px;
-  /*margin-top: 20px;*/
-  outline: none;
-  padding: 10px 0 ;
-  text-align: center;
-  margin: 0 auto;
-
-
-}
-
-
-
-
-
 textarea{
   border:1px solid #d9d9d9;
 }
 
-.news-img{
-  /*background: red;*/
+.video-descrip-text{
   /*text-align: center;*/
-  margin: 0 auto;
-  border:1px solid #f2f2f2;
-  /*margin-bottom: 25px;*/
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 18px 16px -16px black;
-}
-.news-parent-div{
-  /*background: blue;*/
-  margin: 50px 0;
-  padding: 25px 15px 0 15px;
-  border-top: 1px solid #e6e6e6;
-}
-.news-text-parent{
-  /*background-color: grey;*/
-  width: 800px;
-  /*text-align: center;*/
-  margin: 0 auto;
-}
-.news-text{
-  /*padding-left: 25px;*/
-  font-size: 1.3em;
-  color: #595959;
+  font-size: 1.5em;
   font-weight: bold;
-  /*text-align: left;*/
-  margin-top: 25px; 
-}
-.news-text p {
-  margin-top:15px;
-  margin-bottom: 15px;
+  margin: 25px 15px;
+  color: #595959;
+  /*padding: 0 200px;*/
   /*background: red;*/
+  /*margin: 0 auto;*/
+  text-align: center;
+  
+
+}
+.video-descrip-text p{
+  text-align: left;
 }
 
-.news-tittle{
-  color:red;
-  /*background: green;*/
-  font-family: 'Anton', sans-serif;
+.video-descrip{
+  font-size: 1.1em;
+  font-weight: bold;
+  /*margin: 25px 15px;*/
+  color: #595959;
+  width: 720px;
+  margin: 15px auto 0 auto;
+}
+
+.video-descrip-text p{
+  width: 85%;
+  /*padding: 0 100px;*/
+  /*background: blue;*/
+  margin: 0 auto;
+  /*text-align: center;*/
+
+}
+.video-disclaimer{
+  font-size: 0.6em;
+  font-weight: bold;
+  margin: 25px 15px;
+  color: black;
+  text-align: justify;
+  padding: 15px;
+  border: 2px;
+  border-style: outset;
+  border-color: #5bc0de;
+  background: #f2f2f2;
+  /*margin-top: 400px;*/
+
+}
+.video-parent-wrap{
+  /*padding: 0 25%;*/
+  text-align: center;
+  margin-top: 100px;
+  border-top: 1px solid #e6e6e6;
+
+}
+.videos-wrap{
+  /*background: red;*/
+  /*margin: 0 auto;*/
+  
+  /*width: 720px;
+  height: 405px;*/
+}
+.videos-single{
+  /*border: 2px solid blue;*/
+  /*margin: 0 auto;*/
+  box-shadow: 0 18px 16px -16px black;
+}
+.btn{
+  font-size: 1.2em;
   font-weight: 600;
-  /*padding-left: 15px;*/
-  margin-bottom: 20px;
-  font-size: 3em;
-}
-.news-tittle-span-color{
-  color: black; 
-}
-.news-tittle-span-underline{
-  text-decoration: underline;
+  margin-top: 25px;
 }
 
 /*======================================ID'S===============================================*/
@@ -871,6 +812,95 @@ textarea{
 .navbar-toggle{
   border-radius: 0px;
 }
+.news-img{
+  margin: 0 auto;
+  border:1px solid #f2f2f2;
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 18px 16px -16px black;
+}
+.news-parent-div{
+  margin: 50px 0;
+  padding: 25px 15px 0 15px;
+  border-top: 1px solid #e6e6e6;
+}
+.news-text{
+  font-size: 1.3em;
+  color: #595959;
+  font-weight: bold;
+  margin-top: 25px; 
+}
+.news-text p {
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+.news-text-parent{
+  width: 800px;
+  margin: 0 auto;
+}
+.news-tittle{
+  color:red;
+  font-family: 'Anton', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 3em;
+}
+.news-tittle-span-color{
+  color: black; 
+}
+.news-tittle-span-underline{
+  text-decoration: underline;
+}
+.read-more-state {
+  display: none;
+}
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'LEER MAS';
+}
+
+.read-more-state ~ .read-more-trigger:active{
+  background: #e60800;
+  
+  box-shadow:none;
+}
+.read-more-state ~ .read-more-trigger:focus{
+  background: #e60800;
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'LEER MENOS';
+}
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 0.5s ease;
+}
+.read-more-trigger {
+  cursor: pointer;
+  background: #ff3a33;
+  color: white;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.4em;
+  width: 50%;
+  border:1px solid #ff0900;
+  display: block;
+  box-shadow: inset 0 -0.2em rgba(0,0,0,.3);
+  border-radius: 8px;
+  outline: none;
+  padding: 10px 0 ;
+  text-align: center;
+  margin: 0 auto;
+}
 .personal-info{
   display: inline-block;
   vertical-align: middle;
@@ -1194,6 +1224,9 @@ font-size: 12vw;
 #textintrosub{
   font-size: 7vw;
 }
+/*.video-descrip-text p{
+  width: 600px;
+}*/
 .zoom-image{
   margin:0 auto;
 }
@@ -1210,6 +1243,21 @@ font-size: 12vw;
 }
 
 @media (max-width: 768px) {
+
+.videos-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videos-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 li{
   text-align: left;
 }
@@ -1246,6 +1294,14 @@ li{
   font-size: 14vw;
   text-align: center;
 
+}
+.video-descrip-text p{
+  width: 100%;
+  /*padding: 0;*/
+}
+.video-descrip{
+  width: 95%;
+  /*text-align: left;*/
 }
 
 }
