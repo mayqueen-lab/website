@@ -207,7 +207,7 @@ textarea{
   /*background: blue;*/
   margin: 50px 0;
   padding: 25px 15px 0 15px;
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid #e6e6e6;
 }
 .news-text-parent{
   /*background-color: grey;*/
@@ -234,7 +234,7 @@ textarea{
   /*background: green;*/
   font-family: 'Anton', sans-serif;
   font-weight: 600;
-  padding-left: 15px;
+  /*padding-left: 15px;*/
   margin-bottom: 20px;
   font-size: 3em;
 }
