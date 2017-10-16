@@ -187,17 +187,20 @@ textarea{
   vertical-align: middle;
   margin-left: -3px;
   margin-right: -3px;
+  border-right: 2px solid #FFCC33;
 }
 .col8{
   /*width: 66.66666667%;*/
   width: 60%;
   /*float: left;*/
   display: inline-block;
-  /*background: pink;*/
+  /*background: #FFCC33;*/
   vertical-align: middle;
   margin-left: -3px;
   margin-right: -3px;
-  text-align: left;
+  padding: 20px;
+  /*border-bottom: 5px solid #FFCC33*/
+  /*text-align: left;*/
 }
 .col8 p {
   /*vertical-align: middle;*/
@@ -1308,6 +1311,7 @@ font-size: 12vw;
 .col4{
   width: 100%;
   /*float: left;*/
+  border:none;
 }
 .col8{
   width: 100%;
