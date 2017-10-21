@@ -1041,6 +1041,14 @@ textarea{
   width: 450px;
   height: 300px;
 }
+.thum-cards .thum-info img:hover{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+}
 .thum-cards{
   width: 50%;
   display: inline-block;
