@@ -110,101 +110,13 @@ textarea{
   border:1px solid #d9d9d9;
 }
 
-.notas-parent-wrap{
-  /*background: blue;*/
-  /*padding: 0 15px;*/
-  margin: 50px 0;
-  text-align: center;
-  width: 100%;
-  /*vertical-align: middle;*/
-  padding: 25px 0;
-  border-top: 1px solid #e6e6e6;
-
-}
-
-.notas-inside{
-  /*background: #AAF0D1;*/
-  /*width: 310px;*/
-  /*text-align: center;*/
-  /*margin: 15px auto;*/
-  /*padding: 10px;*/
-  /*padding: 10px;*/
-}
-
-.notas-wrap{
-  /*background: red;*/
-  /*width: 320px;*/
-  
-  /*margin: 25px;*/
-
-
-  /*border: 4px double #FFCFA8;*/
-}
-.notas-img{
-  margin: 0 auto;
-  /*margin: 0 10px;*/
-  border:1px solid #f2f2f2;
-
-  display: block;
-  /*max-width: 100%;*/
-  height: auto;
-  /*border-radius: 5px;*/
-  box-shadow: 0 18px 16px -16px black;
-
-}
-
-.notas-title{
-  font-size: 2em;
-  font-family: 'Anton', sans-serif;
-  /*padding-top: 10px;*/
-  /*background: #cccccc;*/
-  text-transform: uppercase;
-  /*margin: 0 10px 10px 10px;*/
-  color: #FF9966;
-  margin-top: 0px;
-
-}
-.notas-text{
-  /*margin-top: 15px;*/
-  font-size: 1.2em;
-  /*text-align: center;*/
-  font-weight: 600;
-  color: #262626;
-  /*margin: 0 10px;*/
-  /*background: #FFCC33;*/
-  padding: 5px;
-  /*border-radius: 4px;*/
-}
 
 
 
-.col4{
-  /*width: 33.33333333%;*/
-  width: 40%;
-  /*float: left;*/
-  display: inline-block;
-  /*background: red;*/
-  vertical-align: middle;
-  margin-left: -3px;
-  margin-right: -3px;
-  border-right: 2px solid #FFCC33;
-}
-.col8{
-  /*width: 66.66666667%;*/
-  width: 60%;
-  /*float: left;*/
-  display: inline-block;
-  /*background: #FFCC33;*/
-  vertical-align: middle;
-  margin-left: -3px;
-  margin-right: -3px;
-  padding: 20px;
-  /*border-bottom: 5px solid #FFCC33*/
-  /*text-align: left;*/
-}
-.col8 p {
-  /*vertical-align: middle;*/
-}
+
+
+
+
 /*======================================ID'S===============================================*/
 
 #ae-title{
@@ -637,6 +549,23 @@ textarea{
   font-size: 5em;
   font-family: 'Anton', sans-serif;
 }
+.col4{
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -3px;
+  margin-right: -3px;
+  border-right: 2px solid #FFCC33;
+}
+.col8{
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -3px;
+  margin-right: -3px;
+  padding: 20px;
+}
+
 .copyright{
   color: white;
   font-size: 0.9em;
@@ -878,6 +807,35 @@ textarea{
 .news-tittle-span-underline{
   text-decoration: underline;
 }
+.notas-img{
+  margin: 0 auto;
+  border:1px solid #f2f2f2;
+  display: block;
+  height: auto;
+  box-shadow: 0 18px 16px -16px black;
+
+}
+.notas-parent-wrap{
+  margin: 50px 0;
+  text-align: center;
+  width: 100%;
+  padding: 25px 0;
+  border-top: 1px solid #e6e6e6;
+
+}
+.notas-text{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #262626;
+  padding: 5px;
+}
+.notas-title{
+  font-size: 2em;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  color: #FF9966;
+  margin-top: 0px;
+}
 .read-more-state {
   display: none;
 }
@@ -1076,6 +1034,58 @@ textarea{
 .tab-content{
   margin-top: 50px;
 }
+.thechnews-parent{
+  margin: 0 auto;
+}
+.thum-cards img{
+  width: 450px;
+  height: 300px;
+}
+.thum-cards{
+  width: 50%;
+  display: inline-block;
+  margin: 25px -3px;
+  position: relative;
+}
+.thum-cards .thum-info .thum-text span{
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.thum-cards .thum-info .thum-text span.spacer {
+  padding:0 5px;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.thum-date{
+  font-weight: bold;
+  background: #7fc719;
+  padding: 5px 0 5px 10px;
+}
+.thum-info a{
+  color: #595959;
+  text-decoration: none;
+}
+.thum-info a:hover > .thum-date{
+  color: black;
+}
+.thum-info{
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.thum-text { 
+  margin: 0 auto;
+  display: inline-block;
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
 .thanx{
   font-size: 2.5em;
   text-align: center;
@@ -1162,6 +1172,10 @@ textarea{
 /*======================================QUERIES===============================================*/
 
 @media (max-width: 980px) {
+.thum-cards{
+  width: 100%;
+  margin: 25px 0;
+}
 
 footer{
   height: initial;
@@ -1535,6 +1549,22 @@ footer aside a{
 }
 
 @media (max-width: 470px) {
+.thum-cards img{
+  width: 100%;
+  height: auto;
+
+}
+
+.thum-info{
+  width: 100%;
+  height: auto;
+}
+.thum-text{
+  width: 100%;
+  top: 125px;
+  /*margin: 25px 0px;*/
+}
+
 form{
   width: 100%;
   padding: 0 10px;
@@ -1568,6 +1598,12 @@ form{
 
 @media (max-width: 370px) {
 
+
+.thum-text{
+  
+  top: 90px;
+
+}
 .col-xs-12{
   padding-left:0; 
   padding-right:0;
