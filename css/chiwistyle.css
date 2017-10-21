@@ -1180,10 +1180,12 @@ textarea{
 /*======================================QUERIES===============================================*/
 
 @media (max-width: 980px) {
+
 .thum-cards{
   width: 100%;
-  margin: 25px 0;
+
 }
+
 
 footer{
   height: initial;
