@@ -111,7 +111,54 @@ textarea{
 }
 
 
+.share-div-notas{
+  
+  text-align: center;
+  padding:0;
+  margin: 0 auto;
+  line-height: 0;
 
+}
+.share-fb-notas{
+  /*padding:15px 0;*/
+  margin: 2px auto;
+  line-height: 0;
+  /*width: 125px;*/
+  display: inline-block;
+  vertical-align: middle;
+  /*border-radius: 15px;*/
+  /*border:5px solid #4267b2;*/
+  /*background: red;*/
+  margin:8px; 
+
+}
+.share-fb-notas iframe{
+  height: 28px;
+  width: 188px;
+
+}
+
+.share-gp-notas{
+  line-height: 0;
+  /*padding:46px 0;*/
+  margin: 2px auto;
+  /*width: 125px;*/
+  display: inline-block;
+  vertical-align: middle;
+  /*border-radius: 15px;*/
+  /*border:5px solid #dd4b39;*/
+  margin:8px;
+}
+.share-tw-notas{
+  /*padding:46px 0;*/
+  margin: 2px auto;
+  /*width: 125px;*/
+  display: inline-block;
+  vertical-align: middle;
+  /*border-radius: 15px;*/
+  /*border:5px solid #1b95e0;*/
+  margin:8px;
+}
 
 
 
