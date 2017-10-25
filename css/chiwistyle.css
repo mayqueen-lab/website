@@ -115,8 +115,6 @@ textarea{
 
 
 
-
-
 /*======================================ID'S===============================================*/
 
 #ae-title{
@@ -996,6 +994,47 @@ textarea{
   font-family: 'Anton', sans-serif;
   text-decoration: underline;
 }
+.share-div{
+  
+  text-align: center;
+  padding:0;
+  margin: 0 auto;
+  line-height: 0;
+
+}
+.share-fb{
+  padding:15px 0;
+  margin: 2px auto;
+  line-height: 0;
+  width: 125px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 15px;
+  border:5px solid #4267b2;
+
+}
+.share-fb iframe{
+  height: 90px;
+}
+.share-gp{
+  line-height: 0;
+  padding:46px 0;
+  margin: 2px auto;
+  width: 125px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 15px;
+  border:5px solid #dd4b39;
+}
+.share-tw{
+  padding:46px 0;
+  margin: 2px auto;
+  width: 125px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 15px;
+  border:5px solid #1b95e0;
+}
 .somos-codigo{
   /*background: red;*/
   width: 68%;
@@ -1042,11 +1081,11 @@ textarea{
   height: 300px;
 }
 .thum-cards .thum-info img:hover{
-  -webkit-filter: grayscale(100%) blur(3px);
-  -moz-filter: grayscale(100%) blur(3px);
-  -o-filter: grayscale(100%) blur(3px);
-  -ms-filter: grayscale(100%) blur(3px);
-  filter: grayscale(100%) blur(3px);
+  -webkit-filter: grayscale(100%) blur(2px);
+  -moz-filter: grayscale(100%) blur(2px);
+  -o-filter: grayscale(100%) blur(2px);
+  -ms-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(2px);
 
 }
 .thum-cards{
