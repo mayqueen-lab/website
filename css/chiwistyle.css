@@ -112,51 +112,37 @@ textarea{
 
 
 .share-div-notas{
-  
   text-align: center;
   padding:0;
   margin: 0 auto;
   line-height: 0;
 
 }
-.share-fb-notas{
-  /*padding:15px 0;*/
-  margin: 2px auto;
-  line-height: 0;
-  /*width: 125px;*/
-  display: inline-block;
-  vertical-align: middle;
-  /*border-radius: 15px;*/
-  /*border:5px solid #4267b2;*/
-  /*background: red;*/
-  margin:8px; 
-
-}
 .share-fb-notas iframe{
   height: 28px;
   width: 188px;
-
 }
-
+.share-fb-notas{
+  margin: 2px auto;
+  line-height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  margin:8px; 
+}
 .share-gp-notas{
   line-height: 0;
-  /*padding:46px 0;*/
   margin: 2px auto;
-  /*width: 125px;*/
   display: inline-block;
   vertical-align: middle;
-  /*border-radius: 15px;*/
-  /*border:5px solid #dd4b39;*/
   margin:8px;
 }
+.share-space{
+  display: none;
+}
 .share-tw-notas{
-  /*padding:46px 0;*/
   margin: 2px auto;
-  /*width: 125px;*/
   display: inline-block;
   vertical-align: middle;
-  /*border-radius: 15px;*/
-  /*border:5px solid #1b95e0;*/
   margin:8px;
 }
 
@@ -1500,7 +1486,15 @@ li{
 
 /*change at 628px*/
 @media screen and (orientation: portrait) {
-
+.share-gp-notas{
+  margin: 8px 5px 8px 0;
+}
+.share-tw-notas{
+  margin: 8px 0;
+}
+.share-space{
+  display: inherit;
+}
 footer aside a{
   font-size: 24px;
 }
