@@ -1487,10 +1487,10 @@ li{
 /*change at 628px*/
 @media screen and (orientation: portrait) {
 .share-gp-notas{
-  margin: 8px 5px 8px 0;
+  margin: 8px auto;
 }
 .share-tw-notas{
-  margin: 8px 0;
+  margin: 8px auto;
 }
 .share-space{
   display: inherit;
