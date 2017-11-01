@@ -24,11 +24,25 @@
 .video-gif-2:hover, .video-gif-2:focus{
   background-image: url(../img/videos-thum/gifs/5-trucos-para-buscar-en-google.gif);
 }
+.video-gif-3{
+  background-image: url(../img/videos-thum/iphone-x-unboxing.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 253px;
+  width: 450px;
+  transition: 1s;
+  -webkit-transition:  1s;
+  transition-timing-function: ease-in;
+}
+.video-gif-3:hover, .video-gif-3:focus{
+  background-image: url(../img/videos-thum/gifs/iphone-x-unboxing.gif);
+}
 
 
 @media (max-width: 470px) {
 
-.video-gif-1, .video-gif-2{
+.video-gif-1, .video-gif-2, .video-gif-3, .video-gif-4, .video-gif-5, .video-gif-6, .video-gif-7, .video-gif-8, 
+.video-gif-9, .video-gif-10, .video-gif-11, .video-gif-12, .video-gif-13, .video-gif-14, .video-gif-15{
   width: 100%;
 
 }

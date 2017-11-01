@@ -1027,10 +1027,10 @@ textarea{
   height: 300px;
   width: 450px;
 }
-.thum-cards-video{
+/*.thum-cards-video{
   height: 253px;
   width: 450px;
-}
+}*/
 .thum-cards .thum-info img:hover{
   -moz-filter: grayscale(100%) blur(2px);
   -ms-filter: grayscale(100%) blur(2px);
@@ -1046,7 +1046,7 @@ textarea{
 }
 .thum-cards-video{
   display: inline-block;
-  margin: 25px -3px;
+  margin: 40px -3px;
   position: relative;
   width: 50%;
 }
@@ -1590,6 +1590,7 @@ form{
 }
 .thum-cards-video{
   width: 100%;
+  margin: 0px 0px;
 }
 .thum-cards img{
   height: auto;
@@ -1641,9 +1642,7 @@ form{
 .thum-video{
   width: 100%;
 }
-.thum-cards-video{
-  margin: 15px 0;
-}
+
 .thum-text{
   top: 90px;
 }
