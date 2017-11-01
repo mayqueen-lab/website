@@ -1,0 +1,36 @@
+.video-gif-1{
+  background-image: url(../img/videos-thum/lg-4k-oled-wallpaper-tv-mkbhd-youtube-chanel.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 253px;
+  width: 450px;
+  transition: 1s;
+  -webkit-transition:  1s; /* Safari */
+  transition-timing-function: ease-in;
+}
+.video-gif-1:hover, .video-gif-1:focus{
+  background-image: url(../img/videos-thum/gifs/lg-4k-oled-wallpaper-tv-mkbhd-youtube-chanel.gif);
+}
+.video-gif-2{
+  background-image: url(../img/videos-thum/5-trucos-para-buscar-en-google.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 253px;
+  width: 450px;
+  transition: 1s;
+  -webkit-transition:  1s;
+  transition-timing-function: ease-in;
+}
+.video-gif-2:hover, .video-gif-2:focus{
+  background-image: url(../img/videos-thum/gifs/5-trucos-para-buscar-en-google.gif);
+}
+
+
+@media (max-width: 470px) {
+
+.video-gif-1, .video-gif-2{
+  width: 100%;
+
+}
+
+}

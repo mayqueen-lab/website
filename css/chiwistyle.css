@@ -94,6 +94,8 @@ textarea{
 }
 
 
+
+
 /*======================================ID'S===============================================*/
 
 #ae-title{
@@ -752,7 +754,14 @@ textarea{
   font-family: 'Anton', sans-serif;
   font-size: 3em;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 20px 0px;
+}
+.news-tittle-video{
+  color:red;
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 20px 0px;
 }
 .news-tittle-span-color{
   color: black; 
@@ -1011,8 +1020,15 @@ textarea{
 .thechnews-parent{
   margin: 0 auto;
 }
+.thechnews-parent-video{
+  margin: 0 auto;
+}
 .thum-cards img{
   height: 300px;
+  width: 450px;
+}
+.thum-cards-video{
+  height: 253px;
   width: 450px;
 }
 .thum-cards .thum-info img:hover{
@@ -1023,6 +1039,12 @@ textarea{
   filter: grayscale(100%) blur(2px);
 }
 .thum-cards{
+  display: inline-block;
+  margin: 25px -3px;
+  position: relative;
+  width: 50%;
+}
+.thum-cards-video{
   display: inline-block;
   margin: 25px -3px;
   position: relative;
@@ -1049,11 +1071,21 @@ textarea{
   color: #595959;
   text-decoration: none;
 }
+.thum-info-video a{
+  color: #595959;
+  text-decoration: none;
+}
 .thum-info a:hover > .thum-date{
   color: black;
 }
 .thum-info{
   height: 300px;
+  margin: 0 auto;
+  position: relative;
+  width: 450px;
+}
+.thum-info-video{
+  height: 253px;
   margin: 0 auto;
   position: relative;
   width: 450px;
@@ -1124,8 +1156,7 @@ textarea{
   text-align: center;
 }
 .video-parent-wrap{
-  border-top: 1px solid #e6e6e6;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 .videos-single{
@@ -1277,6 +1308,10 @@ footer{
 .thum-cards{
   width: 100%;
   margin: 25px 0px;
+}
+.thum-cards-video{
+  width: 100%;
+  margin: 40px 0px;
 }
 .zoom-image{
   margin:0 auto;
@@ -1538,6 +1573,9 @@ form{
   height: auto;
   width: 96%;
 }
+.news-tittle-video{
+  margin: 15px; 
+}
 .servicios-intro{
   padding: 0 5px;
 }
@@ -1550,11 +1588,18 @@ form{
 .thum-cards{
   width: 100%;
 }
+.thum-cards-video{
+  width: 100%;
+}
 .thum-cards img{
   height: auto;
   width: 100%;
 }
 .thum-info{
+  height: auto;
+  width: 100%;
+}
+.thum-info-video{
   height: auto;
   width: 100%;
 }
@@ -1592,6 +1637,12 @@ form{
 }
 .thum-info{
   width: 100%;
+}
+.thum-video{
+  width: 100%;
+}
+.thum-cards-video{
+  margin: 15px 0;
 }
 .thum-text{
   top: 90px;
