@@ -37,7 +37,19 @@
 .video-gif-3:hover, .video-gif-3:focus{
   background-image: url(../img/videos-thum/gifs/iphone-x-unboxing.gif);
 }
-
+.video-gif-4{
+  background-image: url(../img/videos-thum/como-funciona-el-internet.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 253px;
+  width: 450px;
+  transition: 1s;
+  -webkit-transition:  1s;
+  transition-timing-function: ease-in;
+}
+.video-gif-4:hover, .video-gif-4:focus{
+  background-image: url(../img/videos-thum/gifs/como-funciona-el-internet.gif);
+}
 
 @media (max-width: 470px) {
 
