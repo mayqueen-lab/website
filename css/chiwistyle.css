@@ -1022,10 +1022,6 @@ textarea{
   height: 300px;
   width: 450px;
 }
-/*.thum-cards-video{
-  height: 253px;
-  width: 450px;
-}*/
 .thum-cards .thum-info img:hover{
   -moz-filter: grayscale(100%) blur(2px);
   -ms-filter: grayscale(100%) blur(2px);
@@ -1149,6 +1145,15 @@ textarea{
   font-weight: bold;
   margin: 25px 15px;
   text-align: center;
+}
+.video-esquema{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 253px;
+  width: 450px;
+  transition: 1s;
+  -webkit-transition:  1s; /* Safari */
+  transition-timing-function: ease-in;
 }
 .video-parent-wrap{
   margin-top: 50px;
@@ -1603,7 +1608,9 @@ form{
   width: 100%;
   top: 125px;
 }
-
+.video-esquema{
+  width: 100%
+}
 }
 
 @media (max-width: 370px) {

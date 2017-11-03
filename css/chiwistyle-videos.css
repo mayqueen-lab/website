@@ -1,62 +1,36 @@
+
 .video-gif-1{
   background-image: url(../img/videos-thum/lg-4k-oled-wallpaper-tv-mkbhd-youtube-chanel.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 253px;
-  width: 450px;
-  transition: 1s;
-  -webkit-transition:  1s; /* Safari */
-  transition-timing-function: ease-in;
 }
 .video-gif-1:hover, .video-gif-1:focus{
   background-image: url(../img/videos-thum/gifs/lg-4k-oled-wallpaper-tv-mkbhd-youtube-chanel.gif);
 }
+
 .video-gif-2{
   background-image: url(../img/videos-thum/5-trucos-para-buscar-en-google.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 253px;
-  width: 450px;
-  transition: 1s;
-  -webkit-transition:  1s;
-  transition-timing-function: ease-in;
 }
 .video-gif-2:hover, .video-gif-2:focus{
   background-image: url(../img/videos-thum/gifs/5-trucos-para-buscar-en-google.gif);
 }
+
 .video-gif-3{
   background-image: url(../img/videos-thum/iphone-x-unboxing.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 253px;
-  width: 450px;
-  transition: 1s;
-  -webkit-transition:  1s;
-  transition-timing-function: ease-in;
 }
 .video-gif-3:hover, .video-gif-3:focus{
   background-image: url(../img/videos-thum/gifs/iphone-x-unboxing.gif);
 }
+
 .video-gif-4{
   background-image: url(../img/videos-thum/como-funciona-el-internet.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 253px;
-  width: 450px;
-  transition: 1s;
-  -webkit-transition:  1s;
-  transition-timing-function: ease-in;
 }
 .video-gif-4:hover, .video-gif-4:focus{
   background-image: url(../img/videos-thum/gifs/como-funciona-el-internet.gif);
 }
 
-@media (max-width: 470px) {
-
-.video-gif-1, .video-gif-2, .video-gif-3, .video-gif-4, .video-gif-5, .video-gif-6, .video-gif-7, .video-gif-8, 
-.video-gif-9, .video-gif-10, .video-gif-11, .video-gif-12, .video-gif-13, .video-gif-14, .video-gif-15{
-  width: 100%;
-
+.video-gif-5{
+  background-image: url(../img/videos-thum/como-funcionan-las-pantallas-touch.jpg);
+}
+.video-gif-5:hover, .video-gif-5:focus{
+  background-image: url(../img/videos-thum/gifs/como-funcionan-las-pantallas-touch.gif);
 }
 
-}
