@@ -1608,6 +1608,9 @@ form{
   width: 100%;
   top: 125px;
 }
+.thum-cards .thum-info .thum-text span{
+  font-size: 7vw;
+}
 .video-esquema{
   width: 100%
 }
