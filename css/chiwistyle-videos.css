@@ -34,3 +34,10 @@
   background-image: url(../img/videos-thum/gifs/como-funcionan-las-pantallas-touch.gif);
 }
 
+.video-gif-6{
+  background-image: url(../img/videos-thum/como-funciona-el-disco-duro.jpg);
+}
+.video-gif-6:hover, .video-gif-6:focus{
+  background-image: url(../img/videos-thum/gifs/como-funciona-el-disco-duro.gif);
+}
+
