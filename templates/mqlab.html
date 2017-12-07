@@ -7,12 +7,12 @@
   <meta name="format-detection" content="telephone=no">
   <link href="https://fonts.googleapis.com/css?family=Anton|Poiret+One" rel="stylesheet">
   <title>Chiwiwiche - ¿Sabías que?</title>
-  <link rel="icon" href="img/favicon.ico" sizes="16x16">
+  <link rel="icon" href="static/img/favicon.ico" sizes="16x16">
   <meta name="description" content="Datos curiosos sobre el mundo de la tecnología.">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/chiwistyle-min.css">
-  <!-- <link rel="stylesheet" href="css/chiwistyle.css"> -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/chiwistyle-min.css">
+  <!-- <link rel="stylesheet" href="static/css/chiwistyle.css"> -->
+  <link rel="stylesheet" href="static/css/font-awesome.min.css">
 </head>
 <body>
 <div><!-- CONTEINER -->
@@ -27,21 +27,21 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html" id="bt-a">HOME</a></li>
-            <li><a href="about.html" id="bt-f">ABOUT US</a></li>
-            <li><a href="products.html" id="products">PRODUCTS</a></li>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/" id="bt-a">HOME</a></li>
+            <li><a href="/about" id="bt-f">ABOUT US</a></li>
+            <li><a href="/products" id="products">PRODUCTS</a></li>
 
             <li class="dropdown"><a href="#" id="bt-e" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICE<span class="caret"></span></a>
               <ul class="dropdown-menu">
-            <li><a href="download.html" id="bt-c">Download</a></li>
-            <li><a href="mqlab.html" id="bt-d">MayQueen LAB</a></li>
+            <li><a href="/download" id="bt-c">Download</a></li>
+            <li><a href="/mqlab" id="bt-d">MayQueen LAB</a></li>
             </ul>
             </li>
 
             <li><a href="#" id="bt-f">ONLINE-SHOP</a></li>
-            <li><a href="contact.html" id="bt-f">CONTACT US</a></li>
+            <li><a href="/contact" id="bt-f">CONTACT US</a></li>
             </ul>
           </div>
         </div>
@@ -53,7 +53,7 @@
     <div class="notas-parent-wrap row" id="sabiasque-1">
       <div class="col4">
         <h2 class="notas-title">Chiwiwiche</h2>
-        <img src="img/notas/chiwiwiche.jpg" class="notas-img img-fluid" width="290" height="250" alt="Primera VCR">
+        <img src="static/img/notas/chiwiwiche.jpg" class="notas-img img-fluid" width="290" height="250" alt="Primera VCR">
       </div>
       <div class="col8">
         <p class="notas-text"> Chiwiwiche is an expert of web development including visual design, front-end and backend setup, they have so much weapons, welcome to contact them if you need web design 
@@ -71,7 +71,7 @@
     <div class="notas-parent-wrap row" id="sabiasque-1">
       <div class="col4">
         <h2 class="notas-title">NutsBoard</h2>
-        <img src="img/notas/nutsboard.jpg" class="notas-img img-fluid" width="290" height="250" alt="Primera VCR">
+        <img src="static/img/notas/nutsboard.jpg" class="notas-img img-fluid" width="290" height="250" alt="Primera VCR">
       </div>
       <div class="col8">
         <p class="notas-text">NutsBoard, an arm based SBC brand and organization provider, we have same idea - open source is very important for industrial world! they also have so much open source contribution 
@@ -88,35 +88,33 @@
   <footer>
   <aside>
     <a href="https://www.facebook.com/chiwiwiche/" target="_blank"><i class="fa fa-facebook fa-2x facebook-icon" aria-hidden="true"></i></a>
-    <a href="https://www.instagram.com/chiwiwiche/" target="_blank"><i class="fa fa-instagram fa-2x instagram-icon" aria-hidden="true"></i></a>
     <a href="https://twitter.com/chiwiwiche" target="_blank"><i class="fa fa-twitter fa-2x twitter-icon" aria-hidden="true"></i></a>
-    <a href="https://plus.google.com/u/1/108093044768892691651" target="_blank"><i class="fa fa-google-plus fa-2x google-icon" aria-hidden="true"></i></a>
     <a href="https://www.youtube.com/channel/UC4maA1SS1RN10fNhl7K0k6Q" target="_blank"><i class="fa fa-youtube-play fa-2x youtube-icon" aria-hidden="true"></i></a>
     <a href="whatsapp://send?text=https://chiwiwiche.github.io/website/" data-action="share/whatsapp/share" class="whatsapp"><i class="fa fa-whatsapp fa-2x whatsapp-icon" aria-hidden="true"></i></a>
   </aside>
   <div class="personal-info footer-menu">
     <p>MENU</p>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="servicios.html">About Us</a></li>
-      <li><a href="products.html">PRODUCTS</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/products">PRODUCTS</a></li>
       <li><a href="#">Online-Shop</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="/contact">Contact Us</a></li>
     </ul>
   </div>
   <div class="personal-info buscanos">
     <p>Come To Talk</p>
   </div>
   <div class="personal-info contact-info">
-    <a href="tel:+50231951814" class="phone"><i class="fa fa-volume-control-phone fa-1x" aria-hidden="true"></i> (886) 963-586967</a>
-    <p class="mail">Mail Us:<br> <a href="mailto:sales@shinano.com"><i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i> sales@shinano.com</a></p>
+    <a href="tel:+886963586967" class="phone"><i class="fa fa-volume-control-phone fa-1x" aria-hidden="true"></i> (886) 963-586967</a>
+    <p class="mail">Mail Us:<br> <a href="mailto:sales@mayqueentech.com"><i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i> sales@mayqueentech.com</a></p>
   </div>
   </footer>
   <p class="copyright">&copy; 2017 all rights reserved to MayQueen Technologies<br/p>
 </div> <!-- END OF CONTEINER -->
 
-<script src="js/jquery-3.1.1.slim.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/chiwiscript.js"></script>
+<script src="static/js/jquery-3.1.1.slim.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/chiwiscript.js"></script>
 </body>
 </html>
