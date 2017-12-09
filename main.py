@@ -28,5 +28,10 @@ def mqlab():
 def download():
     return render_template('download.html')
 
+@app.route("/pistachio")
+def pistachio():
+    return render_template('pistachio.html')
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True, threaded=True)

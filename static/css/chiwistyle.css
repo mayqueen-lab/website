@@ -238,8 +238,8 @@ textarea{
   border-bottom: 10px solid red;
 }
 #home-services img:hover, #home-education img:hover{
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 #hosting h2{
   background: #42CCB2;
@@ -442,11 +442,11 @@ textarea{
   width: 400px;
 }
 .branding-logos img{
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
   border-bottom: 1px solid grey;
   border-top:1px solid grey;
-  filter: grayscale(100%);
-  width: 100%;
+  filter: grayscale(0%);
+  width: 10%;
 }
 .branding-logos img:hover{
   -webkit-filter: grayscale(0%);
