@@ -32,6 +32,9 @@ def download():
 def pistachio():
     return render_template('pistachio.html')
 
+@app.route("/pistachio-lite")
+def pistachiolite():
+    return render_template('pistachio-lite.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
