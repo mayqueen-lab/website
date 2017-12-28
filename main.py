@@ -36,5 +36,18 @@ def pistachio():
 def pistachiolite():
     return render_template('pistachio-lite.html')
 
+@app.route('/submit', methods=['POST'])
+def submit():
+    name = request.form.get('firstandlastname')
+    print name
+    phone = request.form.get('phone')
+    print phone
+    mail = request.form.get('mail')
+    print mail
+    message = request.form.get('message')
+    print message
+
+    return 'Done! We will contact you ASAP.'
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True, threaded=True)

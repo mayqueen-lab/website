@@ -71,13 +71,13 @@
 
 
 <div class="form-design">
-<form action="gracias.php" method="post" autocomplete="on">
+  <form action="{{ url_for('submit') }}" method="post" autocomplete="on">
   <label for="fname">NAME</label><br>
-  <input type="text" id="fname" name="firstandlastname" value="" maxlength="40" placeholder="" required><br>
+  <input type="text" id="fname" name="firstandlastname" value="{{name}}" maxlength="40" placeholder="" required><br>
   <label for="tlphone">Telephone</label><br>
-  <input type="tel"  id="tlphone" name="phone" value="" maxlength="15" placeholder="" required><br>
+  <input type="tel"  id="tlphone" name="phone" value="{{phone}}" maxlength="15" placeholder="" required><br>
   <label for="personalmail">Email</label><br>
-  <input type="email" id="personalmail" name="mail" value="" maxlength="40" placeholder="" required><br>
+  <input type="email" id="personalmail" name="mail" value="{{mail}}" maxlength="40" placeholder="" required><br>
   <label for="doubts">How can we serve you?<br></label><br>
   <textarea  id="doubts" name="message" rows="20" cols="40" maxlength="2000" autocomplete="off" placeholder="" required></textarea><br>
   <input type="submit" value="SUBMIT" formenctype="multipart/form-data">
