@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from flask import Flask, render_template, request
+import sqlite3
 
 app = Flask(__name__)
 
@@ -39,15 +40,19 @@ def pistachiolite():
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('firstandlastname')
-    print name
     phone = request.form.get('phone')
-    print phone
     mail = request.form.get('mail')
-    print mail
     message = request.form.get('message')
-    print message
 
-    return 'Done! We will contact you ASAP.'
+    sql_cmd='insert into inquiry values(' + '"' + name + '"' + ',' + '"' + phone + '"' + ',' + '"' + mail + '"' + ',' + '"' + message + '"' + ')'
+    conn = sqlite3.connect("mq.db") # or use :memory: to put it in RAM
+    cursor=conn.cursor()
+    a = cursor.execute(sql_cmd)
+    conn.commit()
+    cursor.close()
+    conn.close()
+
+    return render_template('feedback_soon.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
