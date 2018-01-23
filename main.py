@@ -37,6 +37,11 @@ def pistachio():
 def pistachiolite():
     return render_template('pistachio-lite.html')
 
+@app.route("/news-20180123-pistachio-lite")
+def news_20180123_pistachiolite():
+    return render_template('news/news-20180123-pistachio-lite.html')
+
+
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('firstandlastname')
