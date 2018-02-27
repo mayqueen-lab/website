@@ -45,6 +45,9 @@ def panzer():
 def news_20180123_pistachiolite():
     return render_template('news/news-20180123-pistachio-lite.html')
 
+@app.route("/news-20180227-panzer")
+def news_20180227_panzer():
+    return render_template('news/news-20180227-panzer.html')
 
 @app.route('/submit', methods=['POST'])
 def submit():
