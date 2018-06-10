@@ -41,6 +41,10 @@ def pistachiolite():
 def panzer():
     return render_template('panzer.html')
 
+@app.route("/pieckboard")
+def pieckboard():
+    return render_template('pieckboard.html')
+
 @app.route("/news-20180123-pistachio-lite")
 def news_20180123_pistachiolite():
     return render_template('news/news-20180123-pistachio-lite.html')
