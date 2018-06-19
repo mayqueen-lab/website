@@ -53,6 +53,10 @@ def news_20180123_pistachiolite():
 def news_20180227_panzer():
     return render_template('news/news-20180227-panzer.html')
 
+@app.route("/linM_twdvd")
+def linM_twdvd():
+    return render_template('linM-twdvd.html')
+
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('firstandlastname')
