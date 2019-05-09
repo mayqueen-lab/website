@@ -57,6 +57,10 @@ def news_20180227_panzer():
 def linM_twdvd():
     return render_template('linM-twdvd.html')
 
+@app.route("/twdvd-killdragon")
+def linM_killdragon():
+    return render_template('linM-killdragon.html')
+
 @app.route('/submit', methods=['POST'])
 def submit():
     name = request.form.get('firstandlastname')
