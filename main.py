@@ -53,8 +53,8 @@ def news_20180123_pistachiolite():
 def news_20180227_panzer():
     return render_template('news/news-20180227-panzer.html')
 
-@app.route("/twdvd")
-def linM_twdvd():
+@app.route("/att")
+def linM_att():
     return render_template('linM-twdvd.html')
 
 @app.route("/twdvd-killdragon")
